@@ -5,5 +5,5 @@ def reverse_each_word(stringR)
   myArray.map do |word|
     fnlArry << word.reverse
   end
-  return fnlArry.join
+  return fnlArry.join(" ")
 end
