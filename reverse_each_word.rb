@@ -1,6 +1,6 @@
 def reverse_each_word(stringR)
   indx = 0
-  myArray = stringR.split(//)
+  myArray = stringR.split(/ /)
   fnlArry = []
   myArray.map do |word|
     fnlArry << word.reverse
