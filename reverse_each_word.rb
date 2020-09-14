@@ -1,6 +1,6 @@
 def reverse_each_word(stringR)
   indx = 0
-  myArray = stringR.split
+  myArray = stringR.split(//)
   finlArry = []
   while indx < myArray.length
     finlArry << myArray[myArray.size - indx]
