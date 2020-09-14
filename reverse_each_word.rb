@@ -1,10 +1,9 @@
 def reverse_each_word(stringR)
   indx = 0
-  myArray = stringR.split(//)
-  finlArry = []
-  while indx < myArray.length
-    finlArry << myArray[myArray.size - indx]
-    indx += 1
+  myArray = stringR.split(/ /)
+  fnlArry = []
+  myArray.map do |word|
+    fnlArry << word.reverse
   end
-  return finlArry.join
+  return fnlArry.join
 end
